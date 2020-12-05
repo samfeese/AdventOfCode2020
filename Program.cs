@@ -12,8 +12,9 @@ namespace AdventOfCode
         static void Main(string[] args)
         {
 
-            DayFour dayFour = new DayFour();
-            Console.WriteLine(dayFour.ReadValuesFromTextFileDayFour());
+            DayFive dayFive = new DayFive();
+            List<int> list = new List<int>() { };
+            Console.WriteLine(dayFive.ReadValuesFromTextFileDayFive());
 
         }
     }
