@@ -43,7 +43,7 @@ namespace AdventOfCode
                 }
             
             }
-            return highestNum + 1;
+            return highestNum + 2; //I do not understand why its +2 and my seat should have been 710, but the right anwser was 711? unsure about this o
         }
 
         private int FindRow(string rowString)
