@@ -12,9 +12,9 @@ namespace AdventOfCode
         static void Main(string[] args)
         {
 
-            Day08 day08 = new Day08();
+            Day10 day10 = new Day10();
            
-            day08.ReadFirstValuesFromTextFile();
+            day10.Run();
 
            
 

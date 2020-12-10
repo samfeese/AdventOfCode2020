@@ -84,7 +84,34 @@ namespace AdventOfCode
             }
 
         }
-        
+
+        //int completeTask()
+        //{
+        //    for (int i = 0; i < values.Length; i++)
+        //    {
+        //        string[] cpyInput = new string[values.Length];
+        //        Array.Copy(values, cpyInput, values.Length);
+        //        int result = 0;
+
+        //        if (cpyInput[i].Substring(0, 3) == "nop")
+        //        {
+        //            Array.Copy(values, cpyInput, values.Length);
+        //            cpyInput[i] = cpyInput[i].Replace("nop", "jmp");
+        //            result = ReadFirstValuesFromTextFile(cpyInput);
+        //        }
+        //        if (cpyInput[i].Substring(0, 3) == "jmp")
+        //        {
+        //            Array.Copy(input, cpyInput, input.Length);
+        //            cpyInput[i] = cpyInput[i].Replace("jmp", "nop");
+        //            result = ReadFirstValuesFromTextFile(cpyInput);
+
+        //        }
+        //        if (isTerminated)
+        //            return result;
+        //    }
+        //    return 0;
+
+        //}
 
     }
 }
